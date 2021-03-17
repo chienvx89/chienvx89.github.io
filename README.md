@@ -41,7 +41,7 @@
         - kết quả mở thầu
     2. Tra cứu những đối tượng có vấn đề như thế nào? (KT)
     => cần đảm bảo là những người ko có nghiệp vụ về đấu thầu cũng có thể hiểu và theo dõi được
-    ![alt](https://prnt.sc/10nzwi1)
+    ![alt](https://image.prntscr.com/image/8ezIus3NSNC_e3sEO7bhYQ.jpeg)
 
 
     3. Kết quả trả về thể hiện như thế nào? (KT)
