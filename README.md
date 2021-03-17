@@ -7,12 +7,12 @@
         Khai thác: KT
     4. Mục tiêu 1/4/2020
     5. Ref
-        * [Ví dụ về dữ liệu đầu vào] (http://muasamcong.mpi.gov.vn/)
+        * [Ví dụ về dữ liệu đầu vào] (http://http://muasamcong.mpi.gov.vn/)
         
-        * [Example về thiết kế (chỉ tham khảo tư tưởng)](https://www.figma.com/proto/Aja2mnaHnzDXf7zgEdmlna/KTNN-DemoPOC02?node-id=0%3A5053&scaling=min-zoomAnh)
+        * [Example về thiết kế (chỉ tham khảo tư tưởng)](http://https://www.figma.com/proto/Aja2mnaHnzDXf7zgEdmlna/KTNN-DemoPOC02?node-id=0%3A5053&scaling=min-zoomAnh)
 
         * POC 16.03.2021 
-            {@googleslide: https://docs.google.com/presentation/d/1ndd4de3dTdOkM98DBXteljLu-jEm6c4GpYF0vWvyvaU/edit#slide=id.p1}
+            {@googleslide: http://https://docs.google.com/presentation/d/1ndd4de3dTdOkM98DBXteljLu-jEm6c4GpYF0vWvyvaU/edit#slide=id.p1}
   
 
 #   1. Quản trị
@@ -41,7 +41,7 @@
         - kết quả mở thầu
     2. Tra cứu những đối tượng có vấn đề như thế nào? (KT)
     => cần đảm bảo là những người ko có nghiệp vụ về đấu thầu cũng có thể hiểu và theo dõi được
-    ![alt](https://image.prntscr.com/image/8ezIus3NSNC_e3sEO7bhYQ.jpeg)
+    ![alt](http://https://image.prntscr.com/image/8ezIus3NSNC_e3sEO7bhYQ.jpeg)
 
 
     3. Kết quả trả về thể hiện như thế nào? (KT)
