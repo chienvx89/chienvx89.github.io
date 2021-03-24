@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="vi" xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#">
 
-<!-- Mirrored from tpl.vinades.net/page/thong-bao-moi-thau.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Mar 2021 09:06:25 GMT -->
+<!-- Mirrored from tpl.vinades.net/page/danh-sach-ke-hoach-lua-chon-nha-thau.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Mar 2021 09:06:25 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <title>Thông báo mời thầu</title>
+    <title>Danh sách kế hoạch lựa chọn nhà thầu</title>
     <meta name="description"
-        content="Thông báo mời thầu - Page - http&#x3A;&#x002F;&#x002F;tpl.vinades.net&#x002F;page&#x002F;thong-bao-moi-thau.html">
-    <meta name="keywords" content="thông báo">
-    <meta name="news_keywords" content="thông báo">
+        content="Danh sách kế hoạch lựa chọn nhà thầu - Page - http&#x3A;&#x002F;&#x002F;tpl.vinades.net&#x002F;page&#x002F;danh-sach-ke-hoach-lua-chon-nha-thau.html">
+    <meta name="keywords" content="danh sách, kế hoạch">
+    <meta name="news_keywords" content="danh sách, kế hoạch">
     <meta name="author" content="Dau Thau">
     <meta name="copyright" content="Dau Thau []">
     <meta name="generator" content="NukeViet v4.4">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta property="og:title" content="Thông báo mời thầu">
+    <meta property="og:title" content="Danh sách kế hoạch lựa chọn nhà thầu">
     <meta property="og:type" content="website">
     <meta property="og:description"
-        content="Thông báo mời thầu - Page - http&#x3A;&#x002F;&#x002F;tpl.vinades.net&#x002F;page&#x002F;thong-bao-moi-thau.html">
+        content="Danh sách kế hoạch lựa chọn nhà thầu - Page - http&#x3A;&#x002F;&#x002F;tpl.vinades.net&#x002F;page&#x002F;danh-sach-ke-hoach-lua-chon-nha-thau.html">
     <meta property="og:site_name" content="Dau Thau">
-    <meta property="og:url" content="thong-bao-moi-thau.html">
+    <meta property="og:url" content="danh-sach-ke-hoach-lua-chon-nha-thau.html">
     <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="canonical" href="thong-bao-moi-thau.html">
+    <link rel="canonical" href="danh-sach-ke-hoach-lua-chon-nha-thau.html">
     <link rel="manifest" href="../manifest.html">
     <link rel="apple-touch-icon" href="../uploads/icon_192.html">
     <link rel="apple-touch-icon" sizes="152x152" href="../uploads/icon_152.html">
@@ -152,14 +152,14 @@
                                         <span class="dropdown-toggle menu-item icon_caret" data-toggle="dropdown"
                                             aria-expanded="false"> <strong class="caret">&nbsp;</strong> </span>
                                         <ul class="dropdown-menu">
-                                            <li>
+                                            <li class="active">
                                                 <a href="danh-sach-ke-hoach-lua-chon-nha-thau.html"
                                                     title="Kế hoạch lựa chọn nhà thầu"><span class="menu-item"><span> Kế
                                                             hoạch lựa chọn nhà thầu
                                                         </span></span></a>
                                                 <span></span>
                                             </li>
-                                            <li class="active">
+                                            <li>
                                                 <a href="thong-bao-moi-thau.html" title="Thông báo mời thầu"><span
                                                         class="menu-item"><span> Thông báo mời thầu
                                                         </span></span></a>
@@ -878,9 +878,7 @@
                                                                                 </div>
                                                                                 <div class="form-group text-center">
                                                                                     <button class="btn btn-primary"
-                                                                                        type="button"
-                                                                                        onclick="Search()">Tìm
-                                                                                        kiếm</button>
+                                                                                        type="button" id="btnTimKiem1">Tìm kiếm</button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -977,266 +975,264 @@
                                     <!--End Block -->
                                 </div>
                                 <div class="border-bidding">
-                                    <span>Thông báo mời thầu</span>
+                                    <span>KH lựa chọn nhà thầu</span>
                                 </div>
-                                <form action="http://tpl.vinades.net/detail/" method="post">
+                                <form action="http://tpl.vinades.net/listplan/" method="post">
                                     <table class="bidding-table">
                                         <thead>
                                             <tr>
-                                                <th>Gói thầu</th>
+                                                <th>Tên dự án</th>
                                                 <th>Bên mời thầu</th>
                                                 <th>Công bố</th>
-                                                <th>Đóng thầu</th>
+                                                <th>Gói thầu</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Xây lắp" href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201235006-00</span> Xây lắp</a>
+                                                        <a title="Cung cấp trang thiết bị từ nguồn Ngân sách nhà nước giao không thường xuyên"
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201236109-00</span> Cung cấp trang
+                                                            thiết bị từ nguồn Ngân sách nhà nước giao không thường
+                                                            xuyên</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Công ty TNHH Tư vấn Xây dựng Phú Thạnh"
+                                                        <a title="Viện Dinh dưỡng"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z034535</span> Công ty TNHH Tư
-                                                            vấn Xây dựng Phú Thạnh</a>
+                                                                class="solicitor-code">Z024261</span> Viện Dinh
+                                                            dưỡng</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>15:04 10/12/2020</div>
+                                                    <div>16:27 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>15:30 17/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>2</div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Gói thầu số 03: Accu các loại"
-                                                            href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201214117-01</span> Gói thầu số
-                                                            03: Accu các loại</a>
+                                                        <a title="Xây kè bảo vệ nền đường trục thôn Mỹ Lâm, xã Hòa Lâm, huyện Ứng Hòa, thành phố Hà Nội"
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201236089-00</span> Xây kè bảo vệ
+                                                            nền đường trục thôn Mỹ Lâm, xã Hòa Lâm, huyện Ứng Hòa, thành
+                                                            phố Hà Nội</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Chi nhánh Tổng công ty Điện lực Thành phố Hồ Chí Minh TNHH - Công ty Điện lực Sài Gòn"
+                                                        <a title="Ủy ban nhân dân xã Hòa Lâm"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z003972</span> Chi nhánh Tổng
-                                                            công ty Điện lực Thành phố Hồ Chí Minh TNHH - Công ty Điện
-                                                            lực Sài Gòn</a>
+                                                                class="solicitor-code">Z097178</span> Ủy ban nhân dân xã
+                                                            Hòa Lâm</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>15:04 10/12/2020</div>
+                                                    <div>16:25 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>10:00 16/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>6</div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Gói thầu số 10 (Xây dựng): Hạng mục cây xanh cách ly"
-                                                            href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201234356-00</span> Gói thầu số
-                                                            10 (Xây dựng): Hạng mục cây xanh cách ly</a>
+                                                        <a title="Mua sắm thiết bị dạy học phục vụ năm học 2020-2021"
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201235906-00</span> Mua sắm thiết bị
+                                                            dạy học phục vụ năm học 2020-2021</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Ban Quản lý dự án thị xã Long Khánh"
+                                                        <a title="Sở Giáo dục và Đào tạo Tây Ninh"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z019415</span> Ban Quản lý dự án
-                                                            thị xã Long Khánh</a>
+                                                                class="solicitor-code">Z024269</span> Sở Giáo dục và Đào
+                                                            tạo Tây Ninh</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>15:04 10/12/2020</div>
+                                                    <div>16:25 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>11:00 21/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>10</div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Gói thầu số 15: Cung cấp, lắp đặt thiết bị làm việc và thiết bị âm thanh hội họp"
-                                                            href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201233749-00</span> Gói thầu số
-                                                            15: Cung cấp, lắp đặt thiết bị làm việc và thiết bị âm thanh
-                                                            hội họp</a>
+                                                        <a title="Lựa chọn đơn vị cung cấp dịch vụ bảo hiểm cho 45 xe ô tô lễ tân nhà nước, 14 xe phục vụ các chức danh lãnh đạo và xe phục vụ công tác chung."
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201236072-00</span> Lựa chọn đơn vị
+                                                            cung cấp dịch vụ bảo hiểm cho 45 xe ô tô lễ tân nhà nước, 14
+                                                            xe phục vụ các chức danh lãnh đạo và xe phục vụ công tác
+                                                            chung.</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Ban Quản lý dự án Đầu tư xây dựng Khu vực thành phố Long Xuyên"
+                                                        <a title="BỘ NGOẠI GIAO"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z018109</span> Ban Quản lý dự
-                                                            án Đầu tư xây dựng Khu vực thành phố Long Xuyên</a>
+                                                                class="solicitor-code">Z008984</span> BỘ NGOẠI GIAO</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>15:00 10/12/2020</div>
+                                                    <div>16:24 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>14:00 21/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>1</div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Mua sắm thiết bị đo đạc, giám sát khai thác, sử dụng tài nguyên nước thuộc dự án Nâng cấp, mở rộng hệ thống cấp nước tập trung xã Xuân Mỹ, huyện Cẩm Mỹ"
-                                                            href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201150445-00</span> Mua sắm thiết
-                                                            bị đo đạc, giám sát khai thác, sử dụng tài nguyên nước thuộc
-                                                            dự án Nâng cấp, mở rộng hệ thống cấp nước tập trung xã Xuân
-                                                            Mỹ, huyện Cẩm Mỹ</a>
+                                                        <a title="Mua sắm Than cục 4 cho bệnh viện đa khoa Y học cổ truyền Hà Nội năm 2021"
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201236125-00</span> Mua sắm Than cục
+                                                            4 cho bệnh viện đa khoa Y học cổ truyền Hà Nội năm 2021</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Ban Quản lý dự án đầu tư xây dựng tỉnh Đồng Nai"
+                                                        <a title="Bệnh viện đa khoa Y học cổ truyền Hà Nội"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z032182</span> Ban Quản lý dự án
-                                                            đầu tư xây dựng tỉnh Đồng Nai</a>
+                                                                class="solicitor-code">Z019873</span> Bệnh viện đa khoa
+                                                            Y học cổ truyền Hà Nội</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>14:59 10/12/2020</div>
+                                                    <div>16:24 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>16:15 17/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>3</div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Gói thầu số 3: Tư vấn khảo sát địa chất công trình, lập báo cáo nghiên cứu khả thi"
-                                                            href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201225262-00</span> Gói thầu số
-                                                            3: Tư vấn khảo sát địa chất công trình, lập báo cáo nghiên
-                                                            cứu khả thi</a>
+                                                        <a title="Mua lô hóa chất cho máy xét nghiệm khí máu"
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201236018-00</span> Mua lô hóa chất
+                                                            cho máy xét nghiệm khí máu</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Viện Nông Nghiệp Thanh Hóa"
+                                                        <a title="Bệnh viện Nhi tỉnh Hải Dương"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z078961</span> Viện Nông Nghiệp
-                                                            Thanh Hóa</a>
+                                                                class="solicitor-code">Z024090</span> Bệnh viện Nhi tỉnh
+                                                            Hải Dương</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>14:57 10/12/2020</div>
+                                                    <div>16:23 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>15:30 30/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>3</div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Thi công xây lắp công trình: Trường THCS Hùng An, xã Hùng An (Hạng mục: Cải tạo, sửa chữa 02 nhà lớp học 02 tầng 12 phòng học, phòng hội đồng, xây kè, tường rào, sân bê tông và các hạng mục phụ trợ khác"
-                                                            href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201233125-00</span> Thi công xây
-                                                            lắp công trình: Trường THCS Hùng An, xã Hùng An (Hạng mục:
-                                                            Cải tạo, sửa chữa 02 nhà lớp học 02 tầng 12 phòng học, phòng
-                                                            hội đồng, xây kè, tường rào, sân bê tông và các hạng mục phụ
-                                                            trợ khác</a>
+                                                        <a title="Mua sắm bổ sung máy tính các trường phổ thông dân tộc bán trú trung học cơ sở và các trường trung học cơ sở có học sinh bán trú tỉnh Thái Nguyên năm 2020"
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201236116-00</span> Mua sắm bổ sung
+                                                            máy tính các trường phổ thông dân tộc bán trú trung học cơ
+                                                            sở và các trường trung học cơ sở có học sinh bán trú tỉnh
+                                                            Thái Nguyên năm 2020</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Công ty trách nhiệm hữu hạn Sơn Bắc Bắc Quang"
+                                                        <a title="Sở Giáo dục và Đào tạo tỉnh Thái Nguyên"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z047184</span> Công ty trách
-                                                            nhiệm hữu hạn Sơn Bắc Bắc Quang</a>
+                                                                class="solicitor-code">Z026796</span> Sở Giáo dục và Đào
+                                                            tạo tỉnh Thái Nguyên</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>14:57 10/12/2020</div>
+                                                    <div>16:22 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>15:30 20/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>3</div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Gói số 2: Xây dựng phần mỹ thuật"
-                                                            href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201234929-00</span> Gói số 2: Xây
-                                                            dựng phần mỹ thuật</a>
+                                                        <a title="Mua bảo hiểm cho 09 xe ô tô của Trung tâm Kỹ thuật truyền dẫn phát sóng (thời hạn bảo hiểm từ ngày 01/01/2021 đến 31/12/2021."
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201236080-00</span> Mua bảo hiểm cho
+                                                            09 xe ô tô của Trung tâm Kỹ thuật truyền dẫn phát sóng (thời
+                                                            hạn bảo hiểm từ ngày 01/01/2021 đến 31/12/2021.</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Ban Quản lý dự án đầu tư xây dựng các công trình dân dụng và công nghiệp tỉnh Vĩnh Long"
+                                                        <a title="Trung tâm Kỹ thuật truyền dẫn phát sóng"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z028402</span> Ban Quản lý dự án
-                                                            đầu tư xây dựng các công trình dân dụng và công nghiệp tỉnh
-                                                            Vĩnh Long</a>
+                                                                class="solicitor-code">Z011850</span> Trung tâm Kỹ thuật
+                                                            truyền dẫn phát sóng</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>14:57 10/12/2020</div>
+                                                    <div>16:22 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>15:00 20/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>1</div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Sửa chữa cáp quang tuyến Công ty Điện lực Thái Bình đi Điện lực Thành Phố"
-                                                            href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201235021-00</span> Sửa chữa cáp
-                                                            quang tuyến Công ty Điện lực Thái Bình đi Điện lực Thành
-                                                            Phố</a>
+                                                        <a title="Cải tạo, nâng cấp đường Mí - Thanh Lạc, huyện Nho Quan (giai đoạn 2)"
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201235718-00</span> Cải tạo, nâng
+                                                            cấp đường Mí - Thanh Lạc, huyện Nho Quan (giai đoạn 2)</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Công ty Điện lực Thái Bình - Chi nhánh Tổng Công ty Điện lực miền Bắc"
+                                                        <a title="Ban QLDA Đầu tư xây dựng huyện Nho Quan"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z002068</span> Công ty Điện lực
-                                                            Thái Bình - Chi nhánh Tổng Công ty Điện lực miền Bắc</a>
+                                                                class="solicitor-code">Z043820</span> Ban QLDA Đầu tư
+                                                            xây dựng huyện Nho Quan</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>14:57 10/12/2020</div>
+                                                    <div>16:21 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>15:00 15/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>3</div>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="order-header" data-column="Gói thầu">
+                                                <td class="order-header" data-column="Tên dự án">
                                                     <div>
-                                                        <a title="Thuê ngoài dịch vụ vệ sinh tại các cửa hàng giao dịch thuộc TTKD"
-                                                            href="chi-tiet-thong-bao-moi-thau.html"><span
-                                                                class="bidding-code">20201234817-00</span> Thuê ngoài
-                                                            dịch vụ vệ sinh tại các cửa hàng giao dịch thuộc TTKD</a>
+                                                        <a title="Duy tu giao thông, duy tu thoát nước năm 2020 trên địa bàn phường Tam Bình, quận Thủ Đức"
+                                                            href="chi-tiet-1-ke-hoach-lua-chon-nha-thau.html"><span
+                                                                class="plan-code">20201233984-02</span> Duy tu giao
+                                                            thông, duy tu thoát nước năm 2020 trên địa bàn phường Tam
+                                                            Bình, quận Thủ Đức</a>
                                                     </div>
                                                 </td>
                                                 <td data-column="Bên mời thầu">
                                                     <div>
-                                                        <a title="Trung tâm Kinh doanh VNPT Hà Nội Chi nhánh Tổng công ty Dịch vụ Viễn thông"
+                                                        <a title="Công ty Trách nhiệm hữu hạn Tư vấn Công nghệ Xây dựng Quang Minh"
                                                             href="thong-tin-tong-quan-ben-moi-thau.html"><span
-                                                                class="solicitor-code">Z022513</span> Trung tâm Kinh
-                                                            doanh VNPT Hà Nội Chi nhánh Tổng công ty Dịch vụ Viễn
-                                                            thông</a>
+                                                                class="solicitor-code">Z029772</span> Công ty Trách
+                                                            nhiệm hữu hạn Tư vấn Công nghệ Xây dựng Quang Minh</a>
                                                     </div>
                                                 </td>
                                                 <td class="txt-center" data-column="Công bố">
-                                                    <div>14:57 10/12/2020</div>
+                                                    <div>16:21 10/12/2020</div>
                                                 </td>
-                                                <td class="txt-center" data-column="Đóng thầu">
-                                                    <div>09:00 18/12/2020</div>
+                                                <td class="txt-center" data-column="Số gói thầu">
+                                                    <div>5</div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1245,37 +1241,29 @@
                                         <ul class="pagination">
                                             <li class="disabled"><a href="javascript:void(0);">«</a></li>
                                             <li class="active"><a href="javascript:void(0);">1</a></li>
-                                            <li><a href="#">2</a>
+                                            <li><a
+                                                    href="../listplan/indexdb20.html?type_search=1&amp;type_info=1&amp;type_info2=1&amp;search_type_content=0&amp;page=2">2</a>
                                             </li>
-                                            <li><a href="#">3</a>
+                                            <li><a
+                                                    href="../listplan/indexbd5a.html?type_search=1&amp;type_info=1&amp;type_info2=1&amp;search_type_content=0&amp;page=3">3</a>
                                             </li>
                                             <li class="disabled"><span>...</span></li>
-                                            <li><a href="#">25126</a>
+                                            <li><a
+                                                    href="../listplan/index3e53.html?type_search=1&amp;type_info=1&amp;type_info2=1&amp;search_type_content=0&amp;page=20821">20821</a>
                                             </li>
-                                            <li><a href="#">25127</a>
+                                            <li><a
+                                                    href="../listplan/indexe162.html?type_search=1&amp;type_info=1&amp;type_info2=1&amp;search_type_content=0&amp;page=20822">20822</a>
                                             </li>
-                                            <li><a href="#">25128</a>
+                                            <li><a
+                                                    href="../listplan/index8c7a.html?type_search=1&amp;type_info=1&amp;type_info2=1&amp;search_type_content=0&amp;page=20823">20823</a>
                                             </li>
-                                            <li><a href="#" title="Trang sau">»</a>
+                                            <li><a href="../listplan/indexdb20.html?type_search=1&amp;type_info=1&amp;type_info2=1&amp;search_type_content=0&amp;page=2"
+                                                    title="Trang sau">»</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </form>
-                                <div class="modal fade" id="idmodals" tabindex="-1" role="dialog"
-                                    aria-labelledby="myModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-hidden="true">×</button>
-                                                <h4 class="modal-title">Thông tin chi tiết</h4>
-                                            </div>
-                                            <div class="modal-body">
-                                                <em class="fa fa-spinner fa-spin">&nbsp;</em>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><br>Tìm kiếm trong: 0.063 - Số kết quả: 753.818
+                                <br>Tìm kiếm trong: 0.099 - Số kết quả: 624.689
                             </div>
                             <div class="col-right col-xs-24 col-sm-8 col-md-6 col-lg-6">
                                 <!--Start Block -->
@@ -1329,21 +1317,21 @@
                                         <div class="panel-body">
                                             <div class="nv-block-banners">
                                                 <a rel="nofollow"
-                                                    href="../banners/click/indexf05f.html?id=6&amp;s=8f47a366680e72006d28926063e2b0c2"
+                                                    href="../banners/click/index5d75.html?id=6&amp;s=9559510004f8a0b53f3dbd4dfe807970"
                                                     onclick="this.target='_blank'" title="QC3"> <img alt="QC3"
                                                         src="../uploads/banners/advtop-4_20200715122227.gif" width="250"
                                                         height="117" /> </a>
                                             </div>
                                             <div class="nv-block-banners">
                                                 <a rel="nofollow"
-                                                    href="../banners/click/indexd19c.html?id=5&amp;s=849e0adfca6f634209c02d1a72eba9fe"
+                                                    href="../banners/click/index3c7f.html?id=5&amp;s=3b8b5792b271693faa2b20fa6aa3151f"
                                                     onclick="this.target='_blank'" title="QC2"> <img alt="QC2"
                                                         src="../uploads/banners/advtop-2.jpg" width="250"
                                                         height="117" /> </a>
                                             </div>
                                             <div class="nv-block-banners">
                                                 <a rel="nofollow"
-                                                    href="../banners/click/indexde3f.html?id=4&amp;s=bfc94e95b056743f7b9f4f1e715c23d8"
+                                                    href="../banners/click/indexf91e.html?id=4&amp;s=b1aba879c61140f299113f97fd08c058"
                                                     onclick="this.target='_blank'" title="QC1"> <img alt="QC1"
                                                         src="../uploads/banners/tkt.jpg" width="250" height="117" />
                                                 </a>
@@ -1402,7 +1390,7 @@
                             <li><a href="javascript:void(0);" style="cursor:default;">Chọn giao diện:</a></li>
                             <li class="active"><a href="javascript:void(0);" style="cursor:default;"><em
                                         class="icon-random margin-right-sm"></em>Tự động ()</a></li>
-                            <li><a href="index088e.html?nvvithemever=d&amp;nv_redirect=WhEG3HMPxDnD-U7mg8VpAbawnQe5e-2rxLp1dzCt8JLhiNixkaF53souZ2pCKMZVC9s2Uhhlj2pQH5t_PXDdkQ%2C%2C"
+                            <li><a href="indexb05b.html?nvvithemever=d&amp;nv_redirect=mMWn98lNLxQluv61Pnne78O3kGSuJ-rGJWRlVQywliogGVmDzNGiLl9JXaLNXR2YsT8TqDZULc3bsaxZuWqEdoOBaiewMah510S_MIw7Mog%2C"
                                     rel="nofollow"><em class="icon-desktop margin-right-sm"></em>Máy Tính</a></li>
                         </ul>
                     </span>
@@ -1471,22 +1459,30 @@
             $('.btn-search').click(function () {
                 $(this).siblings('.advance-search').slideToggle(500);
             });
+
+            // function Search()
+            // {
+            //     var getUrl = window.location.origin;
+            //     var url = "/page/procuring-entity.html";
+            //     debugger;
+            //     window.location.href = getUrl + url
+            // }
+
+            $("#btnTimKiem1").on("click", function () {
+                var getUrl = window.location.origin;
+                var url = "/page/procuring-entity.html";
+                window.location.href = getUrl + url
+            });
+
+            $("#btnTimKiem").on("click", function () {
+                var getUrl = window.location.origin;
+                var url = "/page/procuring-entity.html";
+                window.location.href = getUrl + url
+            })
         });
-
-        function Search() {
-            var getUrl = window.location.origin;
-            var url = "/page/procuring-entity.html";
-            window.location.href = getUrl + url
-        }
-
-        $("#btnTimKiem").on("click", function () {
-            var getUrl = window.location.origin;
-            var url = "/page/procuring-entity.html";
-            window.location.href = getUrl + url
-        })
     </script>
 </body>
 
-<!-- Mirrored from tpl.vinades.net/page/thong-bao-moi-thau.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Mar 2021 09:06:25 GMT -->
+<!-- Mirrored from tpl.vinades.net/page/danh-sach-ke-hoach-lua-chon-nha-thau.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Mar 2021 09:06:25 GMT -->
 
 </html>
